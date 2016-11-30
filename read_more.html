@@ -30,10 +30,10 @@
   				</div>
   				<div class="collapse navbar-collapse">
   					<ul class="nav navbar-nav navbar-right">
-  						<li class=""><a href="public.html#home">Home</a></li>
-  						<li class=""><a href="public.html#stats">Stats</a></li>
-  					  <li class="active"><a href="public.html#pemira">Calon Pemira</a></li>
-              <li class=""><a href="public.html#contact">Vote !</a></li>
+  						<li class=""><a href="index.html#home">Home</a></li>
+  						<li class=""><a href="index.html#stats">Stats</a></li>
+  					  <li class="active"><a href="index.html#pemira">Calon Pemira</a></li>
+              <li class=""><a href="index.html#contact">Vote !</a></li>
   					</ul>
   				</div>
       </div>
@@ -55,23 +55,38 @@
                   <h3>Data Calon Presiden</h3>
                   <br/>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="name-pres" class="form-control" required="required" placeholder="Nama">
+                <div class="form-group row">
+                  <label for="nama" class="col-sm-2 col-form-label text-left">Nama</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="name-pres" class="form-control" required="required" placeholder="Nama">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="nim-pres" class="form-control" required="required" placeholder="NIM">
+                <div class="form-group row">
+                  <label for="nim" class="col-sm-2 col-form-label text-left">NIM</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="nim-pres" class="form-control" required="required" placeholder="NIM">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="fakultas-pres" class="form-control" required="required" placeholder="Progdi">
+                <div class="form-group row">
+                  <label for="progdi" class="col-sm-2 col-form-label text-left">Progdi</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="nim-pres" class="form-control" required="required" placeholder="NIM">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="progdi-pres" class="form-control" required="required" placeholder="Fakultas">
+                <div class="form-group row">
+                  <label for="fakultas" class="col-sm-2 col-form-label text-left">Fakultas</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="progdi-pres" class="form-control" required="required" placeholder="Fakultas">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="float" name="ipk-pres" class="form-control ipk-field" required="required" placeholder="IPK">
+                <div class="form-group row">
+                  <label for="ipk" class="col-sm-2 col-form-label text-left">IPK</label>
+                  <div class="col-sm-10">
+                    <input type="float" name="ipk-pres" class="form-control ipk-field" required="required" placeholder="IPK">
+                  </div>
                 </div>
-                <div class="">
-                  <img src="images/our-team/member1.jpg" alt="team member" />
+                <div class="gambar-view-details">
+                  <img src="images/our-team/member1.jpg" alt="gambar-pemira" />
                 </div>
               </div>
             </div>
@@ -81,22 +96,37 @@
                   <h3>Data Calon Wakil Presiden</h3>
                   <br/>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="name-pres" class="form-control" required="required" placeholder="Nama">
+                <div class="form-group row">
+                  <label for="nama" class="col-sm-2 col-form-label text-left">Nama</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="name-capres" class="form-control" required="required" placeholder="Nama">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="nim-pres" class="form-control" required="required" placeholder="NIM">
+                <div class="form-group row">
+                  <label for="nim" class="col-sm-2 col-form-label text-left">NIM</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="nim-pres" class="form-control" required="required" placeholder="NIM">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="fakultas-pres" class="form-control" required="required" placeholder="Progdi">
+                <div class="form-group row">
+                  <label for="progdi" class="col-sm-2 col-form-label text-left">Progdi</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="fakultas-pres" class="form-control" required="required" placeholder="Progdi">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="progdi-pres" class="form-control" required="required" placeholder="Fakultas">
+                <div class="form-group row">
+                  <label for="Fakultas" class="col-sm-2 col-form-label text-left">Fakultas</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="progdi-pres" class="form-control" required="required" placeholder="Fakultas">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="float" name="ipk-pres" class="form-control ipk-field" required="required" placeholder="IPK">
+                <div class="form-group row">
+                  <label for="ipk" class="col-sm-2 col-form-label text-left">IPK</label>
+                  <div class="col-sm-10">
+                    <input type="float" name="ipk-pres" class="form-control ipk-field" required="required" placeholder="IPK">
+                  </div>
                 </div>
-                <div class="">
+                <div class="gambar-view-details">
                   <img src="images/our-team/member1.jpg" alt="team member" />
                 </div>
               </div>
@@ -106,11 +136,17 @@
             <div class="col-sm-6 col-sm-offset-3">
               <br/>
               <div id="details-form-section">
-                <div class="form-group">
-                  <input type="text" name="name-pres" class="form-control" required="required" placeholder="Visi">
+                <div class="form-group row">
+                  <label for="visi" class="col-sm-2 col-form-label text-left">Visi</label>
+                  <div class="col-sm-10">
+                    <input type="text" name="name-pres" class="form-control" required="required" placeholder="Visi">
+                  </div>
                 </div>
-                <div class="form-group">
-                  <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Misi"></textarea>
+                <div class="form-group row">
+                  <label for="misi" class="col-sm-2 col-form-label text-left">Misi</label>
+                  <div class="col-sm-10">
+                    <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Misi"></textarea>
+                  </div>
                 </div>
               </div>
             </div>

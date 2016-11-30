@@ -1537,6 +1537,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 #stats{
 	height: 700px;
+	background-color: #eaeaea;
 }
 
 #details-form-section {
@@ -1577,6 +1578,10 @@ h1, h2, h3, h4, h5, h6 {
 	outline: 0;
 	-webkit-box-shadow:none;
 	box-shadow:none;
+}
+
+#details-form-section .gambar-view-details{
+	padding: 0;
 }
 
 #contact-form .ipk-field {
@@ -1651,6 +1656,10 @@ h1, h2, h3, h4, h5, h6 {
 .calon .hapus-btn:hover {
 	background-color:#a30101
 }
+.vote {
+	padding-top:30px; text-align:center;
+}
+
 @media screen and (max-width: 768px) {
 	#calon .calon {
 		height: auto;
@@ -1664,4 +1673,8 @@ h1, h2, h3, h4, h5, h6 {
 	#calon .tombol {
 		display: inline-block;
 	}
+	#details-form-section .gambar-view-details{
+		width: auto;
+	}
+
 }
